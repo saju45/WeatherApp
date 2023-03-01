@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/atmosphere"
     tools:context=".MainActivity">
 
     <ProgressBar
@@ -74,7 +75,6 @@
 
 
                 <ImageView
-                    android:background="@color/snow"
                     android:id="@+id/weather_bg"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
@@ -247,7 +247,7 @@
                                 <TextView
                                     android:textColor="@color/white"
                                     android:gravity="center"
-                                    android:text="100"
+                                    android:text="Pressure"
                                     android:textSize="10dp"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"/>
@@ -291,7 +291,7 @@
                                 <TextView
                                     android:textColor="@color/white"
                                     android:gravity="center"
-                                    android:text="100"
+                                    android:text="Humidity"
                                     android:textSize="10dp"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"/>
@@ -334,7 +334,7 @@
                                 <TextView
                                     android:textColor="@color/white"
                                     android:gravity="center"
-                                    android:text="100"
+                                    android:text="Wind Speed"
                                     android:textSize="10dp"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"/>
@@ -371,6 +371,7 @@
                                 android:layout_height="wrap_content">
 
                                 <ImageView
+                                    android:id="@+id/weatherIcon"
                                     android:layout_width="25dp"
                                     android:src="@drawable/sun"
                                     android:layout_gravity="center_horizontal"
@@ -388,7 +389,7 @@
                                 <TextView
                                     android:textColor="@color/white"
                                     android:gravity="center"
-                                    android:text="100"
+                                    android:text="Sunrise"
                                     android:textSize="10dp"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"/>
@@ -432,7 +433,7 @@
                                 <TextView
                                     android:textColor="@color/white"
                                     android:gravity="center"
-                                    android:text="100"
+                                    android:text="Sun set"
                                     android:textSize="10dp"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"/>
@@ -475,7 +476,7 @@
                                 <TextView
                                     android:textColor="@color/white"
                                     android:gravity="center"
-                                    android:text="100"
+                                    android:text="fahrenheit"
                                     android:textSize="10dp"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"/>
